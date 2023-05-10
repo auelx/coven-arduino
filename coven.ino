@@ -35,6 +35,7 @@ void loop()
     Serial.println("Start Button is pressed");
     isStarted = true;
     timerMillis = TIMER;
+    delay(1000);
   }
 
   while(isStarted) {
